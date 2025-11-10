@@ -21,7 +21,6 @@ Args:
     --play: Mode évaluation (pas d'entraînement)
 """
 
-import isaacsim
 import argparse
 import os
 import sys
@@ -33,10 +32,6 @@ sys.path.insert(0, root_dir)
 
 import torch
 import numpy as np
-
-# Isaac Lab
-import isaaclab.sim as sim_utils
-from isaaclab.app import AppLauncher
 
 # RL-Games
 from rl_games.torch_runner import Runner
@@ -234,10 +229,7 @@ def main():
     print(f"Seed: {args.seed}")
     print("=" * 80)
 
-    # Lancer Isaac Lab AppLauncher
-    app_launcher = AppLauncher(headless=args.headless)
-
-    # Import après AppLauncher
+    # Import des modules nécessaires
     from isaaclab_envs.utils import create_rlgames_env
     from isaaclab_envs.learning import ModelAMPContinuous, AMPBuilder, AMPAgent
 
