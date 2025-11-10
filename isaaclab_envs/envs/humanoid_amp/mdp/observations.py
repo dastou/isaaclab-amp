@@ -22,7 +22,7 @@ from isaaclab_envs.utils.math import (
 )
 
 if TYPE_CHECKING:
-    from omni.isaac.lab.envs import DirectRLEnv
+    from isaaclab.envs import DirectRLEnv
 
 
 # Constantes pour les observations

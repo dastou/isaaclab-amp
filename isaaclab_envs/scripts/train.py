@@ -35,8 +35,8 @@ import torch
 import numpy as np
 
 # Isaac Lab
-import omni.isaac.lab.sim as sim_utils
-from omni.isaac.lab.app import AppLauncher
+import isaaclab.sim as sim_utils
+from isaaclab.app import AppLauncher
 
 # RL-Games
 from rl_games.torch_runner import Runner

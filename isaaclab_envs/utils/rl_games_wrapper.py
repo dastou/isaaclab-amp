@@ -18,7 +18,7 @@ import torch
 import numpy as np
 from typing import Dict, Tuple, Any
 
-from omni.isaac.lab.envs import DirectRLEnv
+from isaaclab.envs import DirectRLEnv
 
 
 class RLGamesVecEnv:

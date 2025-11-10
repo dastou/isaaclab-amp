@@ -7,25 +7,25 @@
 
 import math
 
-import omni.isaac.lab.sim as sim_utils
-from omni.isaac.lab.envs import DirectRLEnvCfg
-from omni.isaac.lab.managers import EventTermCfg as EventTerm
-from omni.isaac.lab.managers import ObservationGroupCfg as ObsGroup
-from omni.isaac.lab.managers import ObservationTermCfg as ObsTerm
-from omni.isaac.lab.managers import RewardTermCfg as RewTerm
-from omni.isaac.lab.managers import SceneEntityCfg
-from omni.isaac.lab.managers import TerminationTermCfg as DoneTerm
-from omni.isaac.lab.scene import InteractiveSceneCfg
-from omni.isaac.lab.sim import SimulationCfg
-from omni.isaac.lab.utils import configclass
-from omni.isaac.lab.utils.noise import AdditiveGaussianNoiseCfg as Gnoise
+import isaaclab.sim as sim_utils
+from isaaclab.envs import DirectRLEnvCfg
+from isaaclab.managers import EventTermCfg as EventTerm
+from isaaclab.managers import ObservationGroupCfg as ObsGroup
+from isaaclab.managers import ObservationTermCfg as ObsTerm
+from isaaclab.managers import RewardTermCfg as RewTerm
+from isaaclab.managers import SceneEntityCfg
+from isaaclab.managers import TerminationTermCfg as DoneTerm
+from isaaclab.scene import InteractiveSceneCfg
+from isaaclab.sim import SimulationCfg
+from isaaclab.utils import configclass
+from isaaclab.utils.noise import AdditiveGaussianNoiseCfg as Gnoise
 
 from .scene_cfg import HumanoidSceneCfg
 
 ##
 # Pre-defined configs
 ##
-from omni.isaac.lab_assets.humanoid import HUMANOID_CFG  # isort: skip
+from isaaclab_assets.humanoid import HUMANOID_CFG  # isort: skip
 
 
 ##

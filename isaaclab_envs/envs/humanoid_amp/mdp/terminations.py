@@ -14,7 +14,7 @@ import torch
 from typing import TYPE_CHECKING, Tuple
 
 if TYPE_CHECKING:
-    from omni.isaac.lab.envs import DirectRLEnv
+    from isaaclab.envs import DirectRLEnv
 
 
 @torch.jit.script

@@ -16,9 +16,9 @@ Changements majeurs:
 import torch
 from typing import Dict, Tuple
 
-import omni.isaac.lab.sim as sim_utils
-from omni.isaac.lab.envs import DirectRLEnv
-from omni.isaac.lab.assets import Articulation
+import isaaclab.sim as sim_utils
+from isaaclab.envs import DirectRLEnv
+from isaaclab.assets import Articulation
 
 from isaaclab_envs.utils.motion_lib import MotionLib
 from .mdp import compute_observations, compute_rewards, compute_terminations
