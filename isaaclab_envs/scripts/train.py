@@ -21,6 +21,7 @@ Args:
     --play: Mode évaluation (pas d'entraînement)
 """
 
+import isaacsim
 import argparse
 import os
 import sys
